@@ -1,9 +1,5 @@
 # cuhkelearning
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 Only supprt with Window
@@ -31,5 +27,5 @@ Chrome lastest vesion
 Please be noted that not all files can downloaded by this program.
 
 ### Inquire
-please email to cuhkelearningauto@gmail.com
+Please email to cuhkelearningauto@gmail.com
 
