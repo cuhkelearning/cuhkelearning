@@ -6,7 +6,6 @@ c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\bin\Deb
 c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\bin\Debug\WebDriver.Support.dll
 c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\bin\Debug\WebDriver.xml
 c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\bin\Debug\WebDriver.Support.xml
-c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\obj\Debug\elearning.csprojResolveAssemblyReference.cache
 c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\obj\Debug\elearning.exe
 c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\obj\Debug\elearning.pdb
 c:\users\dicks\documents\visual studio 2017\Projects\elearning\elearning\bin\Debug\chromedriver.exe

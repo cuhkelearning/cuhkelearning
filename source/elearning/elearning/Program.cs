@@ -31,11 +31,11 @@ namespace elearning
                 driver.FindElementByName("username").SendKeys(id);
                 driver.FindElementByName("password").SendKeys(password);
                 driver.FindElementByXPath("/html/body/table/tbody/tr[2]/td/table/tbody/tr[1]/td[1]/table/tbody/tr[2]/td/form/table/tbody/tr[6]/td/input[1]").Submit();
-                IWebElement table = new WebDriverWait(driver, TimeSpan.FromMilliseconds(20000)).Until(ExpectedConditions.ElementExists(By.ClassName("portletList-img")));
+                IWebElement table = new WebDriverWait(driver, TimeSpan.FromMilliseconds(100000)).Until(ExpectedConditions.ElementExists(By.ClassName("portletList-img")));
                 var course_li = driver.FindElementsByCssSelector(".portletList-img > li");
                 for (int i = 1; i <= course_li.Count(); i++)
                 {
-                    IWebElement wait = new WebDriverWait(driver, TimeSpan.FromMilliseconds(20000)).Until(ExpectedConditions.ElementExists(By.ClassName("portletList-img")));
+                    IWebElement wait = new WebDriverWait(driver, TimeSpan.FromMilliseconds(100000)).Until(ExpectedConditions.ElementExists(By.ClassName("portletList-img")));
                     var course_link = driver.FindElementByXPath("//*[@id='_4_1termCourses_noterm']/ul/li[" + i + "]/a");
                     string course_text = course_link.Text;
                     try
@@ -50,7 +50,10 @@ namespace elearning
                         List<string> except_text = new List<string>(new string[] { "Notifications", "Announcements", "Discussion Board", "Notifications", "Email", "Groups", "My Grades" });
                         foreach (var element in xpaths)
                         {
-
+                            if (driver.FindElementByXPath(element).GetAttribute("href").Contains("displayName"))
+                            {
+                                continue;
+                            }
                             if (!except_text.Contains(driver.FindElementByXPath(element).Text))
                             {
                                 driver.FindElementByXPath(element).Click();
