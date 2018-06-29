@@ -26,6 +26,10 @@ Chrome lastest vesion
 
 6.Press "Enter" to exit the program after completed
 
+### Note
+
+Please be noted that not all files can downloaded by this program.
+
 ### Inquire
 please email to cuhkelearningauto@gmail.com
 
