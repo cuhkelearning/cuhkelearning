@@ -8,6 +8,20 @@ Only supprt with Window
 
 Chrome lastest vesion
 
+### Elearning setting
+
+Please setting the "My course" first
+
+![](https://image.ibb.co/cxpr1d/1.png)
+
+unticket "Group by Term"
+
+![](https://image.ibb.co/cfTJgd/1.png)
+
+foreach row of the courses, please make sure that "course Name" is ticked
+
+![](https://preview.ibb.co/kApwZy/1.png)
+
 ### Step
 
 1.Download the file and unzip it
