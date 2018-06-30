@@ -32,7 +32,7 @@ foreach row of the courses, please make sure that "course Name" is ticked
 
 4.Enter password
 
-5.Files will be downloaded at the "Course" file in Desktop folder
+5.Files will be downloaded at the "Course" folder in Desktop folder
 
 6.Press "Enter" to exit the program after completed
 
