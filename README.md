@@ -14,7 +14,7 @@ Please setting the "My course" first
 
 ![](https://image.ibb.co/cxpr1d/1.png)
 
-unticket "Group by Term"
+untick "Group by Term"
 
 ![](https://image.ibb.co/cfTJgd/1.png)
 
