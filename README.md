@@ -6,7 +6,7 @@ Only supprt with Window
 
 .Net Framkwork 4.5.2
 
-Chrome lastest vesion
+Chrome latest vesion
 
 ### Elearning setting
 
